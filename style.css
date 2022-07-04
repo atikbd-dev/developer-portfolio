@@ -3,20 +3,27 @@ body{
     margin: 0%;
     
 }
+.fast-half-width{
+    width: 50%;
+    padding: 5%;
+}
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     margin-bottom: 180px;
     display:flex
   
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 80%;
@@ -34,6 +41,11 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.experiance-shadow{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .images{
     width: 120%;
 }
@@ -48,3 +60,28 @@ section{
    
 
 }
+.experiance-shadow{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px rgb(37, 24, 24);
+    border-radius: 8px;
+    border-left: 5px solid orangered;
+}
+.experiance-item{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px rgb(37, 24, 24);
+    border-radius: 8px;
+    border-left: 5px solid rgb(57, 54, 53);
+    background-image: url(images/exp-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
+
